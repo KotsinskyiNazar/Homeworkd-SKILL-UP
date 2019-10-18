@@ -1,0 +1,50 @@
+#box{
+    height: 350px;
+    width: 550px;
+    display: flex;
+    background-color: wheat;
+    border-radius: 10px;
+}
+#box-left{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#temp{
+    font-size: 50px;
+    color: #fff;
+    margin: 0px 0 20px 0;
+}
+#feelslike{
+    color: #fff;
+    font-size: 28px;
+    
+}
+#descript{
+    font-size: 32px;
+    color: #fff;
+    
+}
+#descript::first-letter{
+    text-transform: uppercase;
+}
+#box-rigth{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#date, #press, #humid, #windspeed{
+    margin: 20px 0;
+    font-size: 23px;
+    color: #fff;
+} 
+#date{
+    font-size: 17px;
+    border-bottom: 1px solid #fff;
+}
