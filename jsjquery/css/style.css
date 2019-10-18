@@ -1,0 +1,30 @@
+body{
+    background-color: red;
+}
+.container{
+    background-color: burlywood;
+}
+li{
+    background-color: chartreuse;;
+}
+
+.container2{
+    padding: 6px 9px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.load{
+    height: 40px;
+    width: 40px;
+    margin: 1px 5px;
+    border-radius: 5px;
+}
+.progress{
+    transform: scale(1.2);
+    background-color: yellow;
+}
+.title{
+    text-align: center;
+}
